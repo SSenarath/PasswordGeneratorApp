@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     /*border: 2px solid red;*/
     justify-content: center;
-    margin: 115px 50px 0px 50px;
+    margin: 115px 50px 115px 50px;
    
 }
 
@@ -32,6 +32,7 @@ h1 {
 h2 {
     font-family: 'Inter', sans-serif;
     color: #D5D4D8;
+    margin-top: 0px;
 }
 
 button {

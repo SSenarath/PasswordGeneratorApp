@@ -9,15 +9,16 @@
 </head>
 <body>
     <h1><span class ="white-text">Generate a</span><br>random password</br></h1>
-    <h2>Never use an insecure password again</h2>
-    <button id="generate-el" onclick="generatePassword()">Generate Passwords</button>
+    <h2>Never use an insecure password again.</h2>
+    <button id="generate-el" onclick="generate()">Generate Passwords</button>
     <span>
         <hr>
     </span>
     <div>
-    <button class="newPassword" id="newPasswordOne" ></button>
-    <button class="newPassword" id="newPasswordOne" ></button>
+    <button class="newPassword" id="newPasswordOne" onclick="copyOne()" ></button>
+    <button class="newPassword" id="newPasswordTwo" onclick="copyTwo()" ></button>
     </div>
-<script scr="index.js"></script>
+
+<script src="index.js"></script>
 </body>
 </html>
