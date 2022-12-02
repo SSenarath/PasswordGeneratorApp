@@ -55,7 +55,7 @@ function copyOne(){
     if(newPasswordOne.textContent !== ""){
         let copyText = document.getElementById("newPasswordOne")
         navigator.clipboard.writeText(copyText.textContent);
-        messageEl.textContent = "Pasword copied successfully!"
+        messageEl.textContent = "Password copied successfully!"
     }
 
 }
