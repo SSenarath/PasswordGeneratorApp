@@ -2,7 +2,6 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 let newPasswordOne = document.getElementById("newPasswordOne")
-let newPasswordTwo = document.getElementById("newPasswordTwo")
 
 function createPassword(){
     let password =""
@@ -16,17 +15,10 @@ function createPassword(){
 
 function generate(){
 newPasswordOne.textContent = createPassword()
-newPasswordTwo.textContent = createPassword()
 }
 
 function copyOne(){
     let copyText = document.getElementById("newPasswordOne")
-    navigator.clipboard.writeText(copyText.textContent);
-    alert("Copied the text: " + copyText.textContent);
-}
-
-function copyTwo(){
-    let copyText = document.getElementById("newPasswordTwo")
     navigator.clipboard.writeText(copyText.textContent);
     alert("Copied the text: " + copyText.textContent);
 }
