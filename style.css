@@ -83,6 +83,8 @@ hr {
     /* identical to box height, or 200% */
     text-align: center;
     color: #55F991;
+    padding-top: 5px;
+    box-sizing: border-box;
     
 }
 
