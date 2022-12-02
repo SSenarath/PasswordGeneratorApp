@@ -46,6 +46,7 @@ function createPassword(){
 
 function generate(){
 newPasswordOne.textContent = createPassword()
+messageEl.textContent = ""
 }
 
 
